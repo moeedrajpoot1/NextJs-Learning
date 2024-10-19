@@ -27,7 +27,7 @@ const UserSchema=new Schema({
         enum:["student","instructor","admin"]
 
     },
-    profileImage:{type:String,required:true},
+    profileImage:{type:String},
     stripe_account_id:{type:String},
     stripe_seller:{},
     
